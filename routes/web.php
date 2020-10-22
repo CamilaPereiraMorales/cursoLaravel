@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {   //Aca ejecuta una funcion que retorna
-    return view('app');         // la vista que le indiquemos
+/* Route::get('/', function () {   Aca ejecuta una funcion que retorna
+    return view('app');         la vista que le indiquemos
 });
+*/
 
+Route::view('/', 'app');    // Aca hace lo mismo pero de manera mas simplificada
