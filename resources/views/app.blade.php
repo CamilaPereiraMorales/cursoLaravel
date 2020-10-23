@@ -8,8 +8,10 @@
     
 </head>
 <body>
-    <div id="app"></div>
-    <h1>ElVeinteveinte</h1>
+    <div id="app">
+        <example-component></example-component>
+    </div>
+    
 
 
     <script src="{{ asset('js/app.js') }}"></script>
